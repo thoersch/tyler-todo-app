@@ -1,0 +1,1 @@
+create table if not exists todos (id bigserial primary key not null, title text NOT NULL, done boolean NOT NULL default false, created timestamp NOT NULL default now());
